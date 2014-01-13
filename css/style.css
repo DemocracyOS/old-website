@@ -297,7 +297,8 @@ body { background-color:#fff; font-size:13px; color:#333333; }
 	#avatars{ display:none; }
 	#logo{ margin: 5px auto; float: none; width: 130px; text-align: center; z-index: 9999; }
 	#logo img{ width:80%; }
-	#twitter, #github { float:right; margin-right:3%; margin-top: -52px; }
+	#twitter, #github { float:right; margin-right:10px; margin-top: -52px; }
+	#github { margin-right: 40px;}
 	#header.fixed{ margin-top:0; }
 	#headerFix{ height:81px; }
 	.headerInner{ position:relative; }
