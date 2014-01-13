@@ -151,7 +151,9 @@ body { background-color:#fff; font-size:13px; color:#333333; }
 #header nav li,
 #logo{ float:left; position:relative; }
 #logo { margin:8px 47px 0; }
-#twitter{ float:right; }
+#twitter, #github { float:right; }
+#github {margin-right: 34px;}
+#github img {width: 28px;}
 #header li a{ color:#bebebe; font-size:15px; text-transform:uppercase; font-weight:700; }
 #header li a:hover{ text-decoration:none; }
 #header li a.middle{ padding:0 41px; position:relative; }
@@ -167,7 +169,8 @@ body { background-color:#fff; font-size:13px; color:#333333; }
 }
 #header li a.middle:before{ left:16px; }
 #header li a.middle:after{ right:15px; }
-#twitter{ margin-top:-34px; }
+#twitter { margin-top:-34px; }
+#github { margin-top:-35px; }
 #logo span > img{ position:absolute; bottom: -16px; left: 44px; z-index:99; }
 #mobileMenu{ display:none; }
 #headerFix{ height:115px; background-color:#333333; }
@@ -283,7 +286,7 @@ body { background-color:#fff; font-size:13px; color:#333333; }
 @media screen and (min-width: 1280px) {
 	.headerInner{ width:1260px; margin: 0 auto; }
 	header > .section{ width:878px; }
-	#twitter{ float:right; }
+	#twitter, #github { float:right; }
 }
 @media screen and (min-width: 955px) and (max-width:1280px) {
 	.headerInner{ width:96%; padding:0 2%; }
@@ -294,7 +297,7 @@ body { background-color:#fff; font-size:13px; color:#333333; }
 	#avatars{ display:none; }
 	#logo{ margin: 5px auto; float: none; width: 130px; text-align: center; z-index: 9999; }
 	#logo img{ width:80%; }
-	#twitter{ float:right; margin-right:3%; margin-top: -52px; }
+	#twitter, #github { float:right; margin-right:3%; margin-top: -52px; }
 	#header.fixed{ margin-top:0; }
 	#headerFix{ height:81px; }
 	.headerInner{ position:relative; }
