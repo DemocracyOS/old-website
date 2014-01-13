@@ -152,7 +152,7 @@ body { background-color:#fff; font-size:13px; color:#333333; }
 #logo{ float:left; position:relative; }
 #logo { margin:8px 47px 0; }
 #twitter, #github { float:right; }
-#github {margin-right: 34px;}
+#github {margin-right: 28px;}
 #github img {width: 28px;}
 #header li a{ color:#bebebe; font-size:15px; text-transform:uppercase; font-weight:700; }
 #header li a:hover{ text-decoration:none; }
@@ -288,17 +288,17 @@ body { background-color:#fff; font-size:13px; color:#333333; }
 	header > .section{ width:878px; }
 	#twitter, #github { float:right; }
 }
-@media screen and (min-width: 955px) and (max-width:1280px) {
+@media screen and (min-width: 985px) and (max-width:1280px) {
 	.headerInner{ width:96%; padding:0 2%; }
 }
-@media screen and (max-width: 955px){
+@media screen and (max-width: 985px){
 	#header nav,
 	#logo span,
 	#avatars{ display:none; }
 	#logo{ margin: 5px auto; float: none; width: 130px; text-align: center; z-index: 9999; }
 	#logo img{ width:80%; }
 	#twitter, #github { float:right; margin-right:10px; margin-top: -52px; }
-	#github { margin-right: 40px;}
+	#github { margin-right: 38px;}
 	#header.fixed{ margin-top:0; }
 	#headerFix{ height:81px; }
 	.headerInner{ position:relative; }
