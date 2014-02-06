@@ -43,6 +43,7 @@ $(document).ready(function() {
 	// One Page Nav
 	$('.headerInner .section, #logo a').onePageNav({
 		currentClass: 'current',
+		filter: ':not(.external)',
 		changeHash: false,
 		scrollOffset: 0,
 		begin: fixedHeader()
