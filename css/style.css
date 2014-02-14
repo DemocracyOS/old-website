@@ -262,7 +262,7 @@ body { background-color:#fff; font-size:13px; color:#333333; }
 
 /* FORMS
 ---------------------------------------------------------------------------*/
-#slide2 input[type="email"]{ width:453px; height:19px; border:none; margin:0 4px 0 0px; outline:none; border-radius:3px; padding:10px; }
+#slide2 input[type="email"]{ width:453px; height:19px; border:none; margin:0 4px 0 0px; outline:none; border-radius:3px; padding:10px; font-size: 18px; font-weight: normal;}
 #slide2 input[type="submit"]{ width:137px; height:39px; color:#fff; font-size:15px; background-color:#333; border:none; border-radius:3px; font-weight: bold; outline:none; }
 
 #slide5 form .col-1{ width:49%; float:left; margin-right:2%; }
