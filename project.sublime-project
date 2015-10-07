@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "name": "democracyos.github.io",
+      "path": ".",
+      "file_exclude_patterns": [
+        "*.sublime-workspace"
+      ]
+    }
+  ],
+  "settings": {
+    "binary_file_patterns":
+    [
+      ".tmp/*",
+      "tmp/*",
+      "log/*",
+      "build/*",
+      "node_modules/*",
+      "*.sublime-workspace",
+      "*.jpg",
+      "*.jpeg",
+      "*.png",
+      "*.gif",
+      "*.ttf",
+      "*.tga",
+      "*.dds",
+      "*.ico",
+      "*.eot",
+      "*.pdf",
+      "*.swf",
+      "*.jar",
+      "*.zip",
+      "*.svg"
+    ]
+  }
+}

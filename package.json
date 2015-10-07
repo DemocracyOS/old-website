@@ -1,0 +1,30 @@
+{
+  "name": "democracyos.github.io",
+  "version": "0.0.1",
+  "description": "Ω",
+  "main": "index.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf build && BROCCOLI_COMPRESS=true broccoli build build",
+    "serve": "BROCCOLI_SERVE=true broccoli serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DemocracyOS/democracyos.github.io.git"
+  },
+  "author": "mjlescano",
+  "license": "GPLv3",
+  "homepage": "https://github.com/DemocracyOS/democracyos.github.io",
+  "devDependencies": {
+    "broccoli": "^0.16.8",
+    "broccoli-asset-rev": "^2.2.0",
+    "broccoli-autoprefixer": "^4.0.0",
+    "broccoli-cli": "^1.0.0",
+    "broccoli-fast-browserify": "^0.2.9",
+    "broccoli-funnel": "^0.2.8",
+    "broccoli-jade": "^1.0.1",
+    "broccoli-merge-trees": "^0.2.3",
+    "broccoli-stylus-single": "^0.4.1",
+    "uglifyify": "^3.0.1"
+  }
+}
