@@ -45,8 +45,6 @@ if (doServe) trees.push(new Funnel(app, {include: ['layouts/*.jade']}))
 
 var tree = mergeTrees(trees)
 
-console.log(tree)
-
 if (doCompress) tree = assetRev(tree)
 
 module.exports = tree

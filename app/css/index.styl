@@ -1,4 +1,56 @@
 @import 'lib/mini-reset'
 
+*
+  box-sizing: border-box
+
 body
-  color: #444
+  color: #353535
+  font-family: 'Source Sans Pro', sans-serif
+
+@import 'partials/*'
+
+.btn
+  display: inline-block
+  font-size: 13px
+  font-weight: 300
+  text-transform: uppercase
+  border-radius: 0
+  border: 0
+  padding: .8em 1.6em
+  text-rendering: optimizeLegibility
+  white-space: nowrap
+  text-decoration: none
+  -webkit-transition: all .1s ease-out
+  -moz-transition: all .1s ease-out
+  -ms-transition: all .1s ease-out
+  -o-transition: all .1s ease-out
+  transition: all .1s ease-out
+
+  border: 2px solid transparent
+  color: #f5f5f5
+  background-color: #353535
+
+  &:hover
+    border: 2px solid #555
+
+.cover
+  position: relative
+  padding-top: 20vh
+  min-height: 480px
+  height: 90vh
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center bottom
+  background-image: url('../img/cover-3-2.jpg')
+
+  .content
+    position: relative
+    padding: 20px
+    max-width: 100%
+    width: 880px
+    margin: 0 auto
+    text-align: center
+
+  .change-the-tool
+    width: 100%
+    padding-bottom: 2em

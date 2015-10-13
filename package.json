@@ -1,7 +1,7 @@
 {
   "name": "democracyos.github.io",
   "version": "0.0.1",
-  "description": "Ω",
+  "description": "DemocracyOS Site",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
